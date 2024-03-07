@@ -1,4 +1,4 @@
-from roboflow import Roboflow
+from street_signs import Roboflow
 
 rf = Roboflow(api_key="rf_WBGHxj31NrTtNloPbJUvKDGLmQC3")
 project = rf.workspace().project("street signs")
